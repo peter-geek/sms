@@ -1,6 +1,7 @@
 * {
 	transition: 0.3s all;
 	margin: 0;
+	outline: none;
 }
 
 button {
