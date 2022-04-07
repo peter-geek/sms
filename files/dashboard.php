@@ -7,6 +7,7 @@
                 <a href="./?nav=students">Students</a>
                 <a href="./?nav-teachers">Teachers</a>
                 <a href="./?nav=users">Users</a>
+                <a href="./?logout">Logout</a>
             </nav>
         </div>
     </div>
