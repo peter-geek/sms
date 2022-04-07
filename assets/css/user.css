@@ -1,0 +1,30 @@
+form.user {
+	/* border: 1px solid #000; */
+	margin: 10px;
+}
+form.user input,
+form.user select {
+	box-shadow: 0 2px 3px #ccc;
+	border: none;
+	padding: 7px 3%;
+	width: 94%;
+	margin: 5px 0;
+}
+form.user select {
+	width: 100%;
+}
+
+form.user p.label {
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+form.user button[type="submit"] {
+	background-color: #fff;
+	border: none;
+	box-shadow: 0 2px 3px #ccc;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	padding: 7px 15px;
+	margin-top: 7px;
+}

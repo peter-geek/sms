@@ -1,0 +1,15 @@
+table.or_table {
+	border: 1px solid #ffe7d6;
+	border-left: none;
+	border-bottom: none;
+	width: 100%;
+}
+table.or_table tr.thead {
+	background-color: #fff9f5;
+}
+table.or_table th,
+table.or_table td {
+	border: 1px solid #ffe7d6;
+	border-right: none;
+	border-top: none;
+}

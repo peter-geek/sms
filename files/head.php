@@ -7,7 +7,7 @@
     <title>School management system</title>
 
     <style>
-        <?php foreach (glob('../assets/css/*.css') as $css) require $css; ?>
+        <?php foreach (glob('./assets/css/*.css') as $css) require $css; ?>
     </style>
 </head>
 
