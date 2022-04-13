@@ -2,6 +2,7 @@
 	transition: 0.3s all;
 	margin: 0;
 	outline: none;
+	/* padding: 0; */
 }
 
 button {
@@ -102,4 +103,8 @@ div.rc {
 .ic_red {
 	fill: #fff;
 	background-color: #f00;
+}
+.form_error {
+	color: #f00;
+	padding: 4px 0;
 }
