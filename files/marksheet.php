@@ -9,7 +9,7 @@ function getScore($studentId = 0, $subjectId = 0) {
         if($studentId == $student['studentId']) {
             foreach($subjects as $key => $subject) {
                 if($subject['subjectId'] == $subjectId) {
-                    return isset($student['marks']) && isset($student['marks'][$key]) ? $student['marks'][$key]['score'] : -4;
+                    return isset($student['marks']) && isset($student['marks'][$key]) ? $student['marks'][$key]['score'] : 0;
                 }
             }
             return 0;
