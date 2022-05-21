@@ -82,7 +82,7 @@ if(isset($_GET['classId'])) {
     }
 
     // store all scores as well
-    $q = $db->query("SELECT * FROM marks");
+    $q = $db->query("SELECT * FROM marks where classId = '$classId'");
     while($row = $q->fetch_assoc()) {
         addScore($row['studentId'], $row['score'], $row['subjectId']);
     }
