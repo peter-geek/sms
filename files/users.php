@@ -106,10 +106,10 @@
                                 <td><?= $d['email'] ?></td>
                                 <td><?= strtolower($d['acc_type']) ?></td>
                                 <td>
-                                    <a href="./?edit=<?= $d['id'] ?>" class="ic ic_rounded ic_green f-jc-ic"><?= $svg['edit'] ?></a>
+                                    <a href="./?nav=users&edit=<?= $d['id'] ?>" class="ic ic_rounded ic_green f-jc-ic"><?= $svg['edit'] ?></a>
                                 </td>
                                 <td>
-                                    <a href="./?delete=<?= $d['id'] ?>" class="ic ic_rounded ic_red f-jc-ic"><?= $svg['delete'] ?></a>
+                                    <a href="./?nav=users&delete=<?= $d['id'] ?>" class="ic ic_rounded ic_red f-jc-ic"><?= $svg['delete'] ?></a>
                                 </td>
                             </tr>
                         <?php

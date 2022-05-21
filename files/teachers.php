@@ -17,10 +17,10 @@
             <th style="width: 10px;"></th>
         </tr>
         <?php
-        $sql = "SELECT * FROM `user` where acc_type = 'student'";
+        $sql = "SELECT * FROM `user` where acc_type = 'teacher'";
         if(isset($_POST['search'])) {
             $query = $_POST['query'];
-            $sql = "SELECT * FROM `user` where acc_type = 'student' and (fname like '%$query%' or lname like '%$query%')";
+            $sql = "SELECT * FROM `user` where acc_type = 'teacher' and (fname like '%$query%' or lname like '%$query%')";
         }
         $q = $db->query($sql) or die($db->error);
         while($d = $q->fetch_assoc()) {
@@ -32,7 +32,7 @@
                 <td><?=$d['email']?></td>
                 <td></td>
                 <td>
-                    <a href="./?nav=students&edit=<?= $d['id'] ?>" class="ic ic_rounded ic_green f-jc-ic"><?= $svg['edit'] ?></a>
+                    <a href="./?nav=teachers&edit=<?= $d['id'] ?>" class="ic ic_rounded ic_green f-jc-ic"><?= $svg['edit'] ?></a>
                 </td>
             </tr>
             <?php
