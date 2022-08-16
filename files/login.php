@@ -17,7 +17,7 @@
                     echo "Account does not exist";
                 } else {
                     $result = $query->fetch_assoc(); // this will store the returned result into an associative array
-                    if (password_verify($password, $result['password'])) {
+                    if (password_verify($password, $result['password'])){
                         // password verify compares to see if the provided password verifies what we already have in the database
 
                         $_SESSION['sms_user'] = $result; // storing the returned record in a session variable
