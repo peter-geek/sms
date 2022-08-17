@@ -77,8 +77,8 @@
                         <p class="label">Account type</p>
                         <select name="acc_type">
                             <option value="student" <?= $acc_type == 'student' ? 'selected="true"' : '' ?>>Student</option>
-                            <option value="teacher" <?= $acc_type == 'student' ? 'selected="true"' : '' ?>>Teacher</option>
-                            <option value="admin" <?= $acc_type == 'student' ? 'selected="true"' : '' ?>>Admin</option>
+                            <option value="teacher" <?= $acc_type == 'teacher' ? 'selected="true"' : '' ?>>Teacher</option>
+                            <option value="admin" <?= $acc_type == 'admin' ? 'selected="true"' : '' ?>>Admin</option>
                         </select>
                         <p class="label">Password</p>
                         <input type="password" name="password" placeholder="e.g 87T%^RF">
