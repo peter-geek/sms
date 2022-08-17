@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #fff1e1;
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px 0;
+    width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 9px 0;
+}
+.heading{
+    border: 3px solid #a32b2b;
+}
+.heading  h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #a32b2b;
+    font-size: 1.3rem;
+}
+table{
+    border-collapse: collapse;
+    
+}
+table:first-child > thead th{
+    height: 80px;
+    width: 165px;
+    display: inline-table;
+    font-size: 1rem;
+    text-align: start;
+}
+table:nth-child(2){
+    margin: 20px 0;
+    width: 500px;
+    font-size: 1rem;
+}
+th, td{
+    border: 2px solid #f0dfcb;
+    padding: 8px;
+
+}
+.heading{
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid;
+    border-color: brown;
+}
+input{
+   width: 200px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+label:nth-last-child(2), .last{
+    color: red;
+    font-size: 0.83rem;
+    font-weight: bolder;
+}
+label:nth-last-child(2){
+    margin-left: 47px;
+    position: relative;
+}
+textarea{
+    width: 500px;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+}
