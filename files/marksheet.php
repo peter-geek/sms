@@ -146,8 +146,8 @@ if(isset($_GET['classId'])) {
         </form>
         <?php
     }
-    // echo '<pre>';
-    // print_r($student_array);
-    // echo '</pre>';
+    echo '<pre>';
+    print_r($student_array);
+    echo '</pre>';
     ?>
 </div>
